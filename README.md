@@ -1,2 +1,2 @@
-# Lc-ECL
-EEG emotion classification learning method based on Lipschitz constraints (Lc-ECL)
+# LEREL
+LEREL: Lipschitz Continuity-Constrained Emotion Recognition Ensemble Learning For Electroencephalography
