@@ -20,9 +20,6 @@ from torch.nn.functional import one_hot
 from datetime import datetime
 
 class PositionalEncoding(nn.Module):
-    """Positional encoding.
-    https://d2l.ai/chapter_attention-mechanisms-and-transformers/self-attention-and-positional-encoding.html
-    """
     def __init__(self, num_hiddens, dropout, max_len=1000):
         super().__init__()
         self.dropout = nn.Dropout(dropout)
